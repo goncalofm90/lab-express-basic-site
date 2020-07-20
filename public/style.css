@@ -1,0 +1,124 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Bungee Inline', cursive;
+
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  
+}
+
+body {
+  color: cyan;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+.col {
+  border: 5px solid red;
+  display: inline-flex;
+  margin: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#homeh1 {
+  margin-top: 50px;
+
+}
+
+.container {
+  padding: 50px;
+
+}
+
+.container a {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: inline-flex;
+  justify-content: center;
+  color: white;
+}
+
+.container a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.homeimg {
+  display:flex;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.homepage {
+  display:inline-flex;
+  justify-content: space-evenly;
+  text-decoration:none;
+  list-style: none;
+  align-items: center;
+  padding: 50px;
+  font-size: 20px;
+}
+
+.homediv a {
+  margin-bottom: 50px;
+}
+
+.videos {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+iframe  {
+  border: 5px solid white;
+  padding: 20px;
+
+}
+
+.worksmenu, a{
+  display:inline-flex;
+  justify-content: space-evenly;
+  text-decoration:none;
+  padding: 10px;
+  margin-top: 50px;
+  font-size: 20px;
+  color: white;
+
+}
+
+.container a{
+  color: lime;
+  display:inline-flex; 
+  justify-content: center;
+  padding-left: 50px;
+}
+
+.worksmenu, a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+div .aboutimg {
+   display: flex;
+   justify-content: center;
+}
+
+.worklinks {
+  display:inline-flex;
+  justify-content: space-evenly;
+  text-decoration:none;
+  margin-left: 50px;
+  font-size: 20px;
+  color: white;
+}
+
